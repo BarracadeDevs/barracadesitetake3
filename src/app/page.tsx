@@ -1,3 +1,4 @@
+﻿
 // FIXED BY AI: No hooks used, so no 'use client' needed
 import { Nav } from '@/components/nav';
 import { Footer } from '@/components/footer';
