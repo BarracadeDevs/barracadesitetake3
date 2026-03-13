@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "vercel-build": "rm -rf .next node_modules && npm install && next build"
   },
   "dependencies": {
     "@prisma/client": "^7.5.0",
