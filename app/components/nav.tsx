@@ -82,7 +82,7 @@ export function Nav() {
             ))}
             {session ? (
               <button
-                onClick={() => { signOut({ callbackUrl: '/'); setMobileOpen(false); }}
+                onClick={() => { signOut({ callbackUrl: '/' }); setMobileOpen(false); }}
                 className="text-[14px] text-neutral-500 hover:text-neutral-300 py-2 text-left transition-colors"
               >
                 Sign out

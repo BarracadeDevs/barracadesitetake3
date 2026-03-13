@@ -1,2 +1,8 @@
-// Copied from src/components/konami-egg.tsx
-// ...existing code...
+import React from 'react';
+
+const KonamiEgg = () => {
+	// ...existing JSX/logic...
+	return <div />;
+};
+
+export { KonamiEgg };

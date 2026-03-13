@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Copy, Check } from 'lucide-react';
-import { cn } from '@/lib/cn';
+import { cn } from '../lib/cn';
 
 interface CodeBlockProps {
   code: string;

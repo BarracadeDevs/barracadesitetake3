@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
-import { SessionProvider } from '@/components/session-provider';
+import Providers from './providers';
 import './globals.css';
 import { Analytics } from "@vercel/analytics/next"; // Fixed by AI for dynamic hosting
 import { SpeedInsights } from "@vercel/speed-insights/next"; // Fixed by AI for dynamic hosting
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`dark ${inter.variable} ${jetbrainsMono.variable}`}>
+    <html lang="en" className={`dark ${inter.variable} ${jetbrainsMono.variable}`}> 
       <body className="min-h-screen font-sans antialiased">
-        <SessionProvider>{children}</SessionProvider>
+        <Providers>{children}</Providers>
         <Analytics />
         <SpeedInsights />
       </body>

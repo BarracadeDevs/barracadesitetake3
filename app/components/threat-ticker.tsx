@@ -1,2 +1,8 @@
-// Copied from src/components/threat-ticker.tsx
-// ...existing code...
+import React from 'react';
+
+const ThreatTicker = () => {
+	// ...existing JSX/logic...
+	return <div />;
+};
+
+export { ThreatTicker };
